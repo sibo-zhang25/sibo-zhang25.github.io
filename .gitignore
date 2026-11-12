@@ -1,0 +1,12 @@
+node_modules/
+dist/
+.vite/
+*.tsbuildinfo
+.DS_Store
+*.local
+.env
+.env.*
+!.env.example
+
+# Personal source document; selected portfolio details live in src/content.ts.
+/assets/resume_sibo_zhang.pdf
