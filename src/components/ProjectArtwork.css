@@ -6,7 +6,6 @@
     --diagram-muted: var(--muted-foreground);
     --diagram-accent: var(--accent);
     --diagram-highlight: var(--accent-secondary);
-    --diagram-highlight-ink: var(--accent-secondary-ink);
     --diagram-rule: var(--border);
     color: var(--diagram-ink);
     background-color: var(--secondary);
@@ -40,7 +39,7 @@
   .art-diagram::after { inset: auto -1px -1px auto; border-block-end: 1px solid var(--diagram-highlight); border-inline-end: 1px solid var(--diagram-highlight); }
   .diagram-header, .diagram-footer { display: flex; justify-content: space-between; align-items: center; gap: .5rem; font-size: clamp(.45rem, 1.35cqi, .7rem); line-height: 1.5; letter-spacing: .08em; }
   .diagram-header { color: var(--diagram-accent); }
-  .diagram-cross { font-size: 1.5em; line-height: 1; }
+  .diagram-cross { font-size: 1.5em; line-height: 1; color: var(--highlight); }
   .diagram-footer { color: var(--diagram-muted); border-block-start: 1px solid var(--diagram-rule); padding-block-start: 4%; font-size: clamp(.4rem, 1.1cqi, .6rem); }
   .legal-diagram { inline-size: 82%; padding: 4%; }
   .legal-flow { display: grid; grid-template-columns: 1fr auto 1.15fr auto 1fr; align-items: center; gap: 3%; margin-block: 5% 4%; }
@@ -60,7 +59,7 @@
   .property-research { display: grid; grid-template-columns: 1.2fr 1fr; gap: 4%; margin-block: 5% 4%; }
   .property-research > div { display: flex; align-items: center; gap: .5rem; border: 1px solid var(--diagram-rule); padding: 8% 7%; font-size: clamp(.45rem, 1.7cqi, .8rem); }
   .property-research > div > span { color: var(--diagram-accent); }
-  .property-research > div:last-child > span { color: var(--diagram-highlight-ink); }
+  .property-research > div:last-child > span { color: var(--diagram-highlight); }
   .climate-drawing svg { inline-size: 100%; block-size: 100%; stroke-width: 1; }
   .climate-source, .climate-crop { stroke: var(--diagram-accent); }
   .climate-trace { stroke: var(--diagram-rule); stroke-dasharray: 3 4; }

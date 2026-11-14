@@ -1,6 +1,6 @@
 # William (Sibo) Zhang — Personal portfolio
 
-A single-page React and TypeScript portfolio presenting William Zhang’s AI engineering, data science, professional experience, and research. It uses a light design with neon pink highlights, white cards, and teal accents, runs locally with Vite, and deploys as a static site to GitHub Pages. No backend or runtime environment secrets are needed.
+A single-page React and TypeScript portfolio presenting William Zhang’s AI engineering, data science, professional experience, and research. It uses a light blue and purple design with white cards and small neon pink accents, runs locally with Vite, and deploys as a static site to GitHub Pages. No backend or runtime environment secrets are needed.
 
 ## Run locally
 
@@ -26,7 +26,7 @@ Project URLs and the contact email are optional. Leave them empty or omit them u
 
 The visual styling lives in `src/styles.css` and `src/components/ProjectArtwork.css`. Hero and project diagrams use CSS and SVG. The artwork is illustrative and is not a screenshot of a production application. Space Grotesk and IBM Plex Mono are bundled from Fontsource packages and served locally, with system font fallbacks and no external font service.
 
-The site uses one light theme, including browser UI colors. Neon pink supplies button fills, large headline highlights, and artwork details; deeper pink keeps small labels and focus outlines readable. Forced colors mode uses system colors and visible control borders. The hero's central connected-node symbol represents the AI/data theme and uses decorative inline SVG. Motion is limited to a 300 ms hero entrance and short hover transitions. Reduced-motion preferences disable spatial animation; diagrams remain static and page content remains visible.
+The site uses one light theme, including browser UI colors, with pale blue/lavender backgrounds. Blue supplies primary buttons and section labels; purple supplies headline highlights, artwork, and focus outlines. Buttons and selected text use white labels. Neon pink is limited to small decorative stars, plus signs, and circuit nodes. Forced colors mode uses system colors and visible control borders. The hero's central connected-node symbol represents the AI/data theme and uses decorative inline SVG. Motion is limited to a 300 ms hero entrance and short hover transitions. Reduced-motion preferences disable spatial animation; diagrams remain static and page content remains visible.
 
 `sampleContent` is `false` for this portfolio. Each featured project's `artwork` selects one of the three CSS illustrations (`legal`, `property`, or `climate`). The title and description in `src/content.ts` are inserted into the HTML during development and production builds, so metadata has a single source of truth.
 
